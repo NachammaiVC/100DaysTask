@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "FIBO1.C": "cpp",
+        "REVAR.C": "cpp",
+        "LN.C": "cpp",
+        "PRIME.C": "cpp",
+        "LWCTOUPC.C": "cpp",
+        "FACTRECF.C": "cpp",
+        "ARASCEND.C": "cpp",
+        "FREQ.C": "cpp"
+    }
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Day 3 of my challenge</title>
+	</head>
+
+	<body>
+		<p><b>Bold</b>
+		<strong>Strong</strong>
+		<i>Italic</i>
+		<em>Emphasis</em>
+		<mark>Mark</mark>
+		<small>Small</small>
+		<del>Delete</del>
+		<ins>Insert/Underline</ins>
+		H<sub>2</sub>O
+		x<sup>2</sup></p>
+	</body>
+</html>

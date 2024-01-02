@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-in">
+    <head>
+        <title>Day 30 of my challenge</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1>We are creating forms</h1>
+        <form action="day30responses.csv" method="post" autocomplete="on" novalidate>
+            <div>
+                <p>Enter your details.</p>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="Name"><br>
+                <label for="email">Email Id</label>
+                <input type="text" id="email" name="Email"><br>
+                <label for="instagram">Instagram Id</label>
+                <input type="text" id="instagram" name="Instagram"><br>
+            </div>
+            <div>
+                <p>Choose your favorite movies.</p>
+                <input type="checkbox" id="lalaland" name="fav_movie" value="La La Land" >
+                <label for="lalaland">La La Land</label><br>
+                <input type="checkbox" id="avengers" name="fav_movie" value="Avengers" >
+                <label for="avengers">Avengers</label><br>
+                <input type="checkbox" id="venom" name="fav_movie" value="Venom" >
+                <label for="venom">Venom</label><br> 
+            </div>
+            <div>
+                <input type="submit" id="submit" name="submit" value="Submit">
+            </div>
+        </form>
+    </body>
+</html>

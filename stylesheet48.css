@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+    border: 5px double blue;
+}
+p.line1{
+    font-size: larger;
+    outline-style: dotted;
+    outline-color: blue;
+    padding: 5px 5px 5px 5px;
+}
+p.line2{
+    font-size: larger;
+    outline-style: dotted;
+    outline-color: red;
+    padding: 7px;
+}
+p.line3{
+    font-size: larger;
+    border-style: dotted;
+    color: red;
+    padding: 9px;
+}
+p.line4{
+    font-size: larger;
+    border-style: dotted;
+    color: aquamarine;
+    padding: 11px;
+}
+p.line5{
+    font-size: larger;
+    border-style: dotted;
+    background-color: pink;
+    direction: rtl;
+    padding: 13px;
+    }

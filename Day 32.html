@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-in">
+    <head>
+        <title>Day 32 of my challenge</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1>We are learning HTML Input Types</h1>
+        <form action="/action_page.php" method="post" autocomplete="on" novalidate>
+            <div>
+                <fieldset>
+                    <legend>"type"</legend>
+                    <p>Enter your details.</p>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="Name"><br>
+                    <label for="email">Email Id</label>
+                    <input type="text" id="email" name="Email"><br>
+                    <label for="instagram">Instagram Id</label>
+                    <input type="text" id="instagram" name="Instagram"><br>
+                    <label for="bdate">Birthday:</label>
+                    <input type="date" id="bdate" name="bdate"> <br> <!--to display dates-->
+                    <input type="submit">
+                </fieldset>
+            </div>
+            <hr>
+            <div>
+                <p>"password"</p>
+                <p>Enter your details.</p>
+                <label for="email">Email Id</label>
+                <input type="text" id="email" name="Email"><br>
+                <label for="pswd">Password</label>
+                <input type="password" id="pswd" name="Password"><br>
+                <label for="login">Login (date and time):</label>
+                <input type="datetime-local" id="login" name="login"> <br> <br>
+                <input type="submit">
+                <input type="reset">
+            </div>
+            <hr>
+            <div>
+                <p>"radio"</p>
+                <p>Choose your favourite food.</p>
+                <input type = "radio" id="form1"  name="fav_food" value="Fish" >
+                <label for = "form1">Fish</label><br>
+                <input type = "radio" id="form1"  name="fav_food" value="Egg">
+                <label for = "form1">Egg</label><br>
+                <input type = "radio" id="form1"  name="fav_food" value="Chicken">
+                <label for = "form1">Chicken</label><br>
+            </div>
+            <div>
+                <p>"checkbox"</p>
+                <p>Choose your favourite movies.</p>
+                <input type = "checkbox" id="form2"  name="fav_movie" value="La La Land" >
+                <label for = "form1">La La Land</label><br>
+                <input type = "checkbox" id="form2"  name="fav_movie" value="Avengers" >
+                <label for = "form1">Avengers</label><br>
+                <input type = "checkbox" id="form2"  name="fav_movie" value="Venom" >
+                <label for = "form1">Venom</label><br> 
+            </div> <br> <hr>
+            <input type="button" onclick="alert('HIIII!!!!')" value="Click Me!"> <br> <hr>
+            <div>
+                <label for="fav_color">Select your favourite color</label>
+                <input type="color" id="fav_color" name="fav_color">    <!--a color picker is shown-->
+                
+            </div>
+        </form>
+    </body>
+</html>

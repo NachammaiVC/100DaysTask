@@ -1,0 +1,31 @@
+a:link {
+    color: red;
+}
+a:visited {
+    color: pink;
+}
+a:hover {
+    color: darkcyan;
+}
+a:active {
+    color: blue;
+}
+p.newline:hover {
+    background-color: magenta;
+}
+p.newline {
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 5px dotted yellow;
+    background-color: lightblue;
+    border-radius: 5%;
+    display: block; /* Set display to block for p.newline */
+}
+p {
+    display: none;
+    background-color: lightgreen;
+    padding: 15px;
+}
+div:hover p {
+    display: block; /* Override display for p inside a hovered div */
+}

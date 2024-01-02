@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-in">
+    <head>
+        <title>Day 82 of my Challenge</title>
+        <meta charset="UTF-8">
+    </head>
+<body>
+
+<h2>We are learning JavaScript.</h2>
+<p id="demo"></p>
+<p id="convert">Fahrenheit to Celsius Converter</p>
+
+<script>
+    function myFunction(p1, p2){
+        return p1 * p2;
+    }
+    let result = myFunction(4,3); //func. calling/invoking
+    document.getElementById("demo").innerHTML = "Result of (x * y): " + result;
+
+    function toCelsius(fahrenheit){
+        return (5/9) * (fahrenheit-32);
+    }
+    //let x = toCelsius(77);  ////func. calling/invoking
+    let output = "The temperature is " + toCelsius(77) + " Celsius";
+    document.getElementById("convert").innerHTML = "Temperature in Celcius : " + output;
+</script>
+
+</body>
+</html>

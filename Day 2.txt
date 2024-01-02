@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Day 2 of my Challenge </title>
+	</head>
+	
+	<body>
+		<h1> Attributes </h1>
+		<p title="I'm a tooltip">Title attribute.</p>
+	</body>
+</html>

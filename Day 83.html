@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en-in">
+    <head>
+        <title>Day 83 of my Challenge</title>
+        <meta charset="UTF-8">
+    </head>
+<body>
+
+<h2>We are learning JavaScript.</h2>
+<p id="cars">We are learning Objects</p>
+<p id="people"></p>
+
+<script>
+    let car = "Fiat";
+    document.getElementById("cars").innerHTML = car;
+    const person = {firstName: "Nachammai Vanitha", 
+                    lastName: "Chettiar", 
+                    age: 18, eyeColor: "black", 
+                    fullName: function(){
+                        return this.firstName + " " + this.lastName;
+                    }};
+    document.getElementById("people").innerHTML = "First Name: " + person.firstName + "<br>" + "Last Name: " + person.lastName
+    + "<br>" + "Age: " + person.age + "<br>" + "Eye-Color: " + person.eyeColor  + "<br>" + "Full Name: " + person.fullName();
+</script>
+
+</body>
+</html>

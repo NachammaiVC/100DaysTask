@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Day 19 of my challenge</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            *{
+                box-sizing : border-box;
+            }
+            .left{
+                background-color: tomato;
+                padding : 40px;
+                float : left;
+                width : 20%;  /*default width*/
+            }
+            .main{
+                background-color: green;
+                padding : 40px;
+                float : left;
+                width : 60%;   /*default width*/
+            }
+            .right{
+                background-color: pink;
+                padding : 40px;
+                float : left;
+                width : 20%;  /*default width*/
+            }   
+            /*use of media query*/
+            @media screen and (max-width : 800px){ 
+                .left, .main, .right{
+                    width: 100%;      /*the width of the boxes will become 100% when the viewport/screensize is <=800px*/
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Media Queries</h2>
+        <div class="left">
+            <p>Left Box</p>
+        </div>
+        <div class="main">
+            <p>Main Box</p>
+        </div>
+        <div class="right">
+            <p>Right Box</p>
+        </div>
+    </body>
+</html>

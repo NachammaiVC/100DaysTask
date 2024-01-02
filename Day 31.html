@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-in">
+    <head>
+        <title>Day 31 of my challenge</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1>We are creating forms</h1>
+        <form action="day30responses.csv" method="post" autocomplete="on" novalidate>
+            <div>
+                <fieldset>
+                    <legend>Personal Details</legend>
+                    <p>Enter your details.</p>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="Name"><br>
+                    <label for="email">Email Id</label>
+                    <input type="text" id="email" name="Email"><br>
+                    <label for="instagram">Instagram Id</label>
+                    <input type="text" id="instagram" name="Instagram"><br>
+                </fieldset>
+            </div>
+            <hr>
+            <div>
+                <p>We are making selections.</p>
+                <label for="bikes">Choose a bike</label>
+                <select id="bikes" name="bikes">
+                    <option value="ktm">KTM</option>
+                    <option value="bugati">Bugati</option>
+                    <option value="royalenfield" selected>Royal Enfield</option>
+                    <option value="yamaha">Yamaha</option>
+                </select>
+            </div>
+            <button type="button" onclick="alert('We love BIKES !!')">Click Me!</button>
+            <hr> <br> 
+            <p>We are making a Drop-Down list</p>
+            <div>
+                <input list="browsers">
+                <datalist id="browsers">
+                    <option value="Edge">
+                    <option value="Firefox">
+                    <option value="Chrome">
+                    <option value="Opera">
+                    <option value="Safari">
+            </datalist>
+            <input type="submit">
+            </div>
+            <hr> <br> <br>
+            <div>
+                <label for="cars">Choose a car</label>
+                <select id="cars" name="cars" size="4">
+                    <option value="audi">Audi</option>
+                    <option value="bmw">BMW</option>
+                    <option value="skoda" selected>Skoda</option>
+                    <option value="hyundai">Hyundai</option>
+                </select>
+            </div>
+            <br>
+            <p>We are displaying a text box</p>
+            <textarea name="description" rows="9" cols="10">Write about your favourite cars.</textarea>
+            <br> <br>
+            <div>
+                <input type="submit" id="submit" name="submit" value="Submit">
+            </div>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+body{
+    background-color: lightpink;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+p{
+    font-weight: 400;
+    color: yellow;
+    font-size: 30px;
+}   
+#para1{                           
+    text-align: center;
+    color: purple;
+}   
+.classselect{
+    text-align: right;
+    color: red;
+}
+*{
+    font-style: italic;
+}

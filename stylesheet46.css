@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+    border: 3px solid tomato;
+}
+p.dotted{
+    font-size: larger;
+    border-style: dotted;
+    border-width: 5px 5px 5px 5px;
+    border-color: purple;
+    margin: 50px;
+}
+p.dashed{
+    font-size: larger;
+    border-style: dashed;
+    border-width: 5px 5px 5px 5px;
+    border-color: green;
+    margin: 40px;
+}
+p.groove{
+    font-size: larger;
+    border-style: groove;
+    border-width: 5px 5px 5px 5px;
+    border-color: red;
+    margin: 30px;
+}
+p.mixed{
+    font-size: larger;
+    border-top-style: double;
+    border-bottom-style: dotted;
+    margin: 20px;
+}
+p.round{
+    font-size: larger;
+    border-style: solid;
+    border-color: magenta;
+    border-radius: 7px;
+    margin: 10px;
+}
