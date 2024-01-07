@@ -3,16 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Day 86 of my Challenge</title>
+    <title>Day 87 of my Challenge</title>
 </head>
 <body>
     <h2>We are learning JavaScript.</h2>                     
-    <p id="length"></p>
+    <p id="demo"></p>  <!--slice(,): start & end; substr(,): start, length -->
     <script>          
-        let text1 = "abcdefghijklmnopqrstuvwxyz";   
-        document.getElementById("length").innerHTML = "Length of text1 is: " + text1.length +                     
-        "<br> Letter is: " + text1.charAt(0) + 
-        "<br>The Character code is: " + text1.charCodeAt(0) + "<br> The letter is: " + text1.at(3);
+        let text1 = "Honey, Jam, Juice";   
+        let text2 = "Hello";
+        let text3 = "Human";
+        let text4 = "T";
+        document.getElementById("demo").innerHTML = "Extracted string is: " + text1.slice(7,10) + "<br>" + text1.substring(0,5) + 
+        "<br>" + text1.substr(12,5) + "<br> Upper Case string is: " + text1.toUpperCase() + 
+        "<br> Lower Case string is: " + text1.toLowerCase() + "<br> The concatenated string is: " + text2.concat(" ",text3) + 
+        "<br> The padded sting is: " + text4.padStart(4,'u') + " " + text4.padEnd(5,'i');
         
     </script>
 </body>
