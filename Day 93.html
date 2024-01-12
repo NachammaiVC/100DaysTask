@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 93 of my Challenge</title>
+</head>
+<body>
+    <h2>We are learning JavaScript.</h2>                     
+    <p id="demo"></p>  
+    <script>          
+        let x = 5425;
+        let y = 10.56; <!--Since 10.56 is a decimal number, it is not considered as safe-->
+        document.getElementById("demo").innerHTML = "Is it a number? " + Number.isInteger(x) + 
+        "<br> Is it a safe integer? " + Number.isSafeInteger(y) + 
+        "<br> Number as a String: " + x.toString() + 
+        "<br> Exponential form: " + x.toExponential() + 
+        "<br> Fixed Decimals: " + x.toFixed(3) +
+        "<br> Precise Length: " + y.toPrecision(8);     
+    </script>
+</body>
+</html>     
