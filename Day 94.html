@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 94 of my Challenge</title>
+</head>
+<body>
+    <h2>We are learning JavaScript.</h2>                     
+    <p id="demo"></p>  
+    <script>          
+        let x = 5425;
+        let y = 10.56; <!--Since 10.56 is a decimal number, it is not considered as safe-->
+        document.getElementById("demo").innerHTML = "Value of True " + Number(true) + 
+        "<br> parseInt() or Number.parseInt: " + parseInt(y) + " " + Number.parseInt(y) + 
+        "<br> parseFloat() or Number.parseFloat: " + parseFloat(y) + " " + Number.parseFloat(y);
+    </script>
+</body>
+</html>     
