@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 99 of my Challenge</title>
+</head>
+<body>
+    <h2>We are learning JavaScript.</h2>                     
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+    <p id="demo4"></p>  
+    <script>          
+        const fruits = ["Apple", "Banana", "Orange", "Pear"];
+        document.getElementById("demo1").innerHTML = fruits;
+        fruits.pop();
+        document.getElementById("demo2").innerHTML = fruits;
+
+        const cars = ["Volvo", "Audi", "BMW", "Honda"];
+        cars.push("Suzuki");
+        document.getElementById("demo3").innerHTML = cars  + 
+        "<br> The element that will be shifted: " + cars.shift();
+        cars.shift();
+        document.getElementById("demo4").innerHTML = cars;
+    </script>
+</body>
+</html>     
